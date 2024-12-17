@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Prevent caching of assets
+Disallow: /assets/
+Disallow: /*.js$
+Disallow: /*.css$
+
+# Allow sitemap
+Sitemap: https://example.com/sitemap.xml
